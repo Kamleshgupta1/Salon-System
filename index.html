@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solar system</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="index.js"></script>-->
+    
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" sizes="192x192" href="assests/me.png">
+      <!--Chrome, Firefox OS and Opera-->
+      <meta name="theme-color" content="#000">
+      <!--Windows Phone-->
+      <meta name="msapplication-navbutton-color" content="#000">
+      <!--iOS Safari-->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            setTimeout(function () {
+                $(".comet").hide();
+            }, 8000);
+        });
+    </script>
+</head>
+    
+    <body class="view-2D zoom-large">
+        
+        <img src = "assests/gal1.gif" style="position: fixed; widows: 250px;height: 150px;margin-top: 50px;margin-left: 50px; opacity: 0.5;box-shadow: 0 0 25px 15px rgba(0, 0, 0, 0.5);">
+        <img src = "assests/gal1.gif" style="position: fixed; widows: 200px;height: 120px;margin-top: 500px;margin-left: 700px; opacity: 0.3;box-shadow: 0 0 25px 15px rgba(0, 0, 0, 0.5);">
+        <img src = "assests/gal2.gif" style="position: fixed; widows: 150px;height: 100px;margin-top: 100px;right: 50px;border-radius: 70%; opacity: 0.2;box-shadow: 0 0 25px 15px rgba(0, 0, 0, 0.5);">
+        
+        <img src="assests/comet.png" class="comet">
+        <div class="clouds"></div>
+        
+        <div id="navbar">
+          <h1>Solar System</h1>
+        </div>
+
+        <div id="universe" class="scale-stretched">
+            <div id="solar-system" class="earth">
+              <div id="mercury" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Mercury</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="venus" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Venus</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="earth" class="orbit">
+                <div class="pos">
+                  <div class="orbit">
+                    <div class="pos">
+                      <div class="moon"></div>
+                    </div>
+                  </div>
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Earth</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="mars" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Mars</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="jupiter" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Jupiter</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="saturn" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <div class="ring"></div>
+                    <dl class="infos">
+                      <dt>Saturn</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="uranus" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Uranus</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="neptune" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Neptune</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="sun">
+                <dl class="infos">
+                  <dt>Sun</dt>
+                </dl>
+              </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>
